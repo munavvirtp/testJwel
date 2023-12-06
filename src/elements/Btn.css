@@ -3,9 +3,9 @@ button {
   padding: 10px 65px;
   cursor: pointer;
   background-color: white;
-  font-weight: 600;
+  font-weight: 600
 }
 button:hover {
-  background-color: black;
+  background-color: #661414;
   color: white;
 }

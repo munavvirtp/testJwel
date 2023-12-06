@@ -7,17 +7,19 @@ import { FiYoutube } from "react-icons/fi";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaPinterest } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+import one from "../Images/Glogo.png"
 
 function Footer() {
   return (
     <div className='footer'>
       <div>
-        <h3 className='headfooter'>NEWSLETTER</h3>
-        <h4 className='befooter'>Be the first to know more about <br />
-          exciting new designs, Store Openings, <br />
-          and much more.
-        </h4>
+{/*         <h3 className='headfooter'>NEWSLETTER</h3> */}
+{/*         <h4 className='befooter'>Be the first to know more about <br /> */}
+{/*           exciting new designs, Store Openings, <br /> */}
+{/*           and much more. */}
+{/*         </h4> */}
         <div className="lowerfooter">
+          <img className="glogo" src={one} alt="" />
           <h4>FOLLOW US</h4>
           <div className="icons">
             <ImFacebook2 className='icnfooter' />
@@ -35,7 +37,7 @@ function Footer() {
 
       <ul className='footerlist'>
         <li>
-          <h3>AQUAE JEWELS</h3>
+          <h3>Arabian Gold & Diamonds</h3>
         </li>
         <li>  Stores</li>
         <li>  Blogs</li>
@@ -52,6 +54,7 @@ function Footer() {
         <li>
           <h3>CUSTOMER SERVICE</h3>
         </li>
+        <li>  About Us</li>
         <li>  Contact Us</li>
         <li>  Gift Cards</li>
         <li>  Delivery & Returns</li>
